@@ -15,6 +15,7 @@
 		890B0CFB2981536F001F8EBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B0CFA2981536F001F8EBD /* Person.swift */; };
 		890B0CFD298156BB001F8EBD /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B0CFC298156BB001F8EBD /* ContactList.swift */; };
 		890B0CFF2981588F001F8EBD /* UserContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B0CFE2981588F001F8EBD /* UserContact.swift */; };
+		890B0D0129815E32001F8EBD /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B0D0029815E32001F8EBD /* DetailList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		890B0CFA2981536F001F8EBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		890B0CFC298156BB001F8EBD /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		890B0CFE2981588F001F8EBD /* UserContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContact.swift; sourceTree = "<group>"; };
+		890B0D0029815E32001F8EBD /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				890B0CFA2981536F001F8EBD /* Person.swift */,
 				890B0CFC298156BB001F8EBD /* ContactList.swift */,
 				890B0CFE2981588F001F8EBD /* UserContact.swift */,
+				890B0D0029815E32001F8EBD /* DetailList.swift */,
 				890B0CEE29815103001F8EBD /* Assets.xcassets */,
 				890B0CF029815103001F8EBD /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				890B0CED29815102001F8EBD /* ContentView.swift in Sources */,
+				890B0D0129815E32001F8EBD /* DetailList.swift in Sources */,
 				890B0CFB2981536F001F8EBD /* Person.swift in Sources */,
 				890B0CF929815139001F8EBD /* DataManager.swift in Sources */,
 				890B0CFF2981588F001F8EBD /* UserContact.swift in Sources */,

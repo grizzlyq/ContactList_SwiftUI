@@ -16,6 +16,7 @@ struct UserContact: View {
                 Image(systemName: "person.fill")
                     .resizable()
                     .frame(width: 130, height: 130)
+                    .offset(x: 90, y: 0)
                     .alignmentGuide(HorizontalAlignment.center) { _ in  60 }
                     
             HStack {
@@ -29,6 +30,7 @@ struct UserContact: View {
                 }
         }
         .navigationTitle(Text("\(person.firstName) \(person.secondName)"))
+        .navigationBarTitleDisplayMode(.inline)
         
     }
 }

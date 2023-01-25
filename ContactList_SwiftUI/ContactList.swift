@@ -19,6 +19,8 @@ struct ContactList: View {
                 }
             }
             .navigationTitle("Contact List")
+            .navigationBarTitleDisplayMode(.inline)
+            
         }
     }
 }
