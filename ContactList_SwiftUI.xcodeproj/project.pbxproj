@@ -62,12 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				890B0CEA29815102001F8EBD /* ContactList_SwiftUIApp.swift */,
-				890B0CEC29815102001F8EBD /* ContentView.swift */,
-				890B0CF829815139001F8EBD /* DataManager.swift */,
-				890B0CFA2981536F001F8EBD /* Person.swift */,
-				890B0CFC298156BB001F8EBD /* ContactList.swift */,
-				890B0CFE2981588F001F8EBD /* UserContact.swift */,
-				890B0D0029815E32001F8EBD /* DetailList.swift */,
+				890B0D04298300EC001F8EBD /* Views */,
+				890B0D02298300C6001F8EBD /* Managers */,
+				890B0D03298300E4001F8EBD /* Model */,
 				890B0CEE29815103001F8EBD /* Assets.xcassets */,
 				890B0CF029815103001F8EBD /* Preview Content */,
 			);
@@ -80,6 +77,33 @@
 				890B0CF129815103001F8EBD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		890B0D02298300C6001F8EBD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				890B0CF829815139001F8EBD /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		890B0D03298300E4001F8EBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				890B0CFA2981536F001F8EBD /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		890B0D04298300EC001F8EBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				890B0CEC29815102001F8EBD /* ContentView.swift */,
+				890B0CFC298156BB001F8EBD /* ContactList.swift */,
+				890B0CFE2981588F001F8EBD /* UserContact.swift */,
+				890B0D0029815E32001F8EBD /* DetailList.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
