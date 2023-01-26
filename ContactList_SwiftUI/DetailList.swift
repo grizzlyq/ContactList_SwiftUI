@@ -12,7 +12,7 @@ struct DetailList: View {
     let persons: [Person]
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(persons) { person in
                 Section {
                     HStack {
