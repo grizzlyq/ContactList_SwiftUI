@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var contactsList = Person.getRandomPerson()
+    private var contactsList = Person.getRandomPerson()
     
     var body: some View {
        
