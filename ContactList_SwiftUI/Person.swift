@@ -14,6 +14,10 @@ struct Person: Identifiable {
     let secondName: String
     let phone: String
     let email: String
+    
+    var fullName: String {
+        firstName + " " + secondName
+    }
 }
 
 extension Person {

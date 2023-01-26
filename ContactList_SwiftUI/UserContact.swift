@@ -29,7 +29,7 @@ struct UserContact: View {
                     Text(person.email)
                 }
         }
-        .navigationTitle(Text("\(person.firstName) \(person.secondName)"))
+        .navigationTitle(Text("\(person.fullName)"))
         .navigationBarTitleDisplayMode(.inline)
         
     }

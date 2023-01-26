@@ -24,7 +24,7 @@ struct DetailList: View {
                         Text(person.email)
                     }
                 } header: {
-                    Text("\(person.firstName) \(person.secondName)")
+                    Text("\(person.fullName)")
                 }
             }
             .navigationTitle("Contact LIst")
